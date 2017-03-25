@@ -1,0 +1,168 @@
+/*css basic: selector {
+	property: value;
+	anotherProperty: value;
+}*/
+
+/*SELECTORr*/
+
+/*select head*/
+h1 {
+	color: purple;
+	font-size: 56;
+}
+
+/*select image*/
+img {
+	border-color: red;
+	border-width: 3px;
+}
+
+/*select body*/
+body {
+	background: red;
+}
+
+/*select li*/
+li {
+	border: blue;
+}
+
+/*Advanced selector*/
+
+/*select id*/
+#id {
+
+}
+
+/*select class*/
+.class {
+
+}
+/*select every element*/
+* {
+
+}
+
+/*Descendant Selector for example select hello class inside the li*/
+li .hello {
+
+}
+
+div p {
+
+}
+
+/*adjacent selector in the same level select all element after specifical element, for example 
+select all ul after the h4 in the same level*/
+h4 + ul {
+
+}
+
+/*Attribute Selector*/
+a[href="http://www.google.com"] {
+
+}
+
+input[type="text"] {
+
+}
+
+/*n-th of type*/
+ul:nth-of-type(3) {
+	background: purple;
+}
+
+ul:nth-of-type(even) {
+
+}
+
+/*inheritance and specificity*/
+inline style > id > class = attributes > element 
+
+/*Seletor excise*/
+input:checked {
+
+}  /* pseudo selector just like nth of type, select element that been checked in checkbox or radio */
+
+/*select all label can change to uppercase*/
+label {
+	text-transform: uppercase;
+}
+
+/*select first letter for example select id's first letter */
+#id:first-letter {
+
+}
+/* select h1 and make the color hover when mouseover the head*/
+h1: hover {
+  color:blue;
+}
+/*select the element that has been visited*/
+a:visited {
+  color:gray;
+}
+
+
+/*FONT*/
+/*copy link to html one can use google font*/
+/*Then use font in css*/
+p {
+  font-family: fontname;
+}
+
+h1 {
+	font-size: 2.0em; /* double the size compare the text around it*/
+}
+
+/*font-weight*/
+p{
+	font-weight: bold/normal/100, 200,...,800;
+}
+/*line-height*/
+p{
+	line-height: 2;
+}
+/*text-align*/
+h1{
+	text-algin: right/center;
+}
+
+/*text-decoration*/
+p{
+	text-decoration: underline/line-through;
+}
+
+
+/*BOX-MODEL*/
+/*1. Content
+2. Padding
+3. Border
+4. Margin*/
+
+p{	
+	/*Content*/
+	width: 200px/50%;
+	height:200px;
+	/*Border*/
+	border: 2px solid blue;
+	border-right: ;
+	/*Padding*/
+	padding: 10px;
+	padding-left: 40px;  /*space inside the border*/
+	/*Margin*/
+	margin: 100px; /*space outside the border*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
