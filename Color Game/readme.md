@@ -1,1 +1,1 @@
-Open colorGama.html with Chrome, and play some games!
+Open colorGama.html with Chrome, and play game
