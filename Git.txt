@@ -1,0 +1,2 @@
+下载单个文件夹：将 /tree/master/ 换成  /trunk/
+svn checkout + url
